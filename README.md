@@ -8,7 +8,7 @@
 https://instagram.com/<path>?__a=1
 ```
 
-E.g.
+**[Examples](./basic_endpoint)**
 ```bash
 # Explore tags
 https://www.instagram.com/explore/tags/vegan/?__a=1
@@ -40,7 +40,7 @@ Available parameters:
 - first (amount of nodes to get)
 
 
-E.g.
+**[Examples](./custom_endpoint)**
 ```bash
 # Explore tags
 https://www.instagram.com/graphql/query/?query_id=17875800862117404&variables=%7B%22tag_name%22%3A%22<tag_name>%22%2C%22first%22%3A<num_of_posts>%7D
