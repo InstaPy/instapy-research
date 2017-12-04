@@ -1,7 +1,7 @@
 # InstaPy-Research
 📄 Research repository for InstaPy
 
-### Basic Information that are displayed when accessing a page
+## Basic Information that are displayed when accessing a page
 
 **Schema:**
 ```bash
@@ -20,7 +20,7 @@ https://www.instagram.com/?__a=1
 https://www.instagram.com/contacting.john.doe/?__a=1
 ```
 
-### GraphQL modifiable data endpoints
+## GraphQL modifiable data endpoints
 
 **Schema:**
 ```bash
