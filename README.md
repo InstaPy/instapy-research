@@ -16,13 +16,16 @@ https://instagram.com/<path>?__a=1
 **[Examples](./basic_endpoint)**
 ```bash
 # Explore tags
-https://www.instagram.com/explore/tags/vegan/?__a=1
+https://www.instagram.com/explore/tags/<tag_name>/?__a=1
+
+# Post page
+https://www.instagram.com/p/<id_of_post>/?__a=1
 
 # When logged in, feed
 https://www.instagram.com/?__a=1
 
 # Own/other profiles
-https://www.instagram.com/contacting.john.doe/?__a=1
+https://www.instagram.com/<userame>/?__a=1
 ```
 
 ## GraphQL modifiable data endpoints
@@ -38,6 +41,8 @@ https://www.instagram.com/graphql/query/?query_id=<query_id>&variables=%7B<param
 |17874545323001329|user following|
 |17851374694183129|user followers|
 |17888483320059182|user posts|
+|TODO|likes on posts|
+|TODO|comments on posts|
 
 Available parameters:
 - id (user_id)
@@ -71,3 +76,11 @@ https://www.instagram.com/graphql/query/?query_id=17888483320059182&variables=%7
 |{|%7B|
 |:|%3A|
 |"|%22|
+
+## Full "pipeline" to get a JSON that contains all the information of a profile
+> This will help to create metrics and graphs in the long run
+
+**TODO**   
+- Get the bio, followers, followings and other profile information
+- Get all the posts
+- For each post, get the description, likes, comments and all the already given post details
