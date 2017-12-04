@@ -45,6 +45,7 @@ https://www.instagram.com/graphql/query/?query_id=<query_id>&variables=%7B<param
 |17852405266163336|comments on posts|
 |17842794232208280|posts on feed|
 |17847560125201451|feed profile suggestions|
+|17863787143139595|post suggestions|
 
 Available parameters:
 - id (user_id)
@@ -90,6 +91,9 @@ https://www.instagram.com/graphql/query/?query_id=17842794232208280&variables={%
 
 # Profile suggestios in feed
 https://www.instagram.com/graphql/query/?query_id=17847560125201451&variables={%22fetch_media_count%22:<num_of_posts_per_suggestion>,%22fetch_suggested_count%22:<num_of_suggestions>,%22filter_followed_friends%22:true, "has_stories":false}
+
+# Post suggestions for user
+https://www.instagram.com/graphql/query/?query_id=17863787143139595&variables={%22first%22:<num_of_posts>}
 ```
 
 
