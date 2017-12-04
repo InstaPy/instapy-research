@@ -84,7 +84,7 @@ https://www.instagram.com/graphql/query/?query_id=17864450716183058&variables=%7
 # Post page comments
 https://www.instagram.com/graphql/query/?query_id=17852405266163336&variables={"shortcode":"<id_of_post>","first":<num_of_comments>}
 
-
+# Note: Still have to figure out how to get this data without using selenium once logged in.
 # **Only works with logged in user**
 # Feed posts
 https://www.instagram.com/graphql/query/?query_id=17842794232208280&variables={%22fetch_media_item_count%22:<num_of_posts>,%22fetch_comment_count%22:<num_of_comments_per_post>,%22fetch_like%22:<num_of_likers_per_post>}
