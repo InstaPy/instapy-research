@@ -1,4 +1,4 @@
-Post page likes
+## Post page likes
 > https://www.instagram.com/graphql/query/?query_id=17864450716183058&variables={%22shortcode%22:%22BcQcdiXltba%22,%22first%22:1}
 
 ```js
