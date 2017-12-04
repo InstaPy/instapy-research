@@ -42,6 +42,7 @@ Available parameters:
 - id (user_id)
 - tag_name (only one needed for explore tags)
 - first (amount of nodes to get)
+- after (haven't completely figured out, but looks like this is for the offset, use the cursor field)
 
 
 **[Examples](./custom_endpoint)**
