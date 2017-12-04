@@ -1,6 +1,10 @@
 # InstaPy-Research
 📄 Research repository for InstaPy
 
+> This repository documents the, up to this point, found endpoints that could be useful for InstaPy to improve it's fault tolerance and performance.    
+The goal is to not only remove the unnecessary use of selenium to find elements to click but also improve the amount of data that can be retrieved in each run. Once we reach a point where a profile/post only has to be opened to actually like, comment  and follow the profile, we minimized the amount of elements that need an upgrade on an Instagram webpage change.    
+Note: This is just an assumption, but the GraphQL endpoints most likely are the same for the mobile webpage. This means that once it's chagned in the code, we can easily switch to the mobile version which allows us to build a post scheduler into InstaPy. 
+
 ## Basic Information that are displayed when accessing a page
 
 **Schema:**
