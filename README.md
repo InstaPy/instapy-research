@@ -41,7 +41,7 @@ https://www.instagram.com/graphql/query/?query_id=<query_id>&variables=%7B<param
 |17874545323001329|user following|
 |17851374694183129|user followers|
 |17888483320059182|user posts|
-|TODO|likes on posts|
+|17864450716183058|likes on posts|
 |TODO|comments on posts|
 
 Available parameters:
@@ -49,7 +49,7 @@ Available parameters:
 - tag_name (only one needed for explore tags)
 - first (amount of nodes to get)
 - after (haven't completely figured out, but looks like this is for the offset, use the cursor field)
-
+- shortcode (used for the "on posts" queries like "likes on post")
 
 **[Examples](./custom_endpoint)**
 ```bash
@@ -64,6 +64,9 @@ https://www.instagram.com/graphql/query/?query_id=17874545323001329&variables=%7
 
 # User profile posts
 https://www.instagram.com/graphql/query/?query_id=17888483320059182&variables=%7B%22id%22%3A%22<user_id>%22%2C%22first%22%3A<num_of_posts>%7D
+
+# Post page likes
+https://www.instagram.com/graphql/query/?query_id=17864450716183058&variables=%7B%22shortcode%22%3A%22<id_of_post>%22X2C%22first%22%3A<num_of_likes>%7D
 ```
 
 
