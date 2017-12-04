@@ -3,7 +3,7 @@
 
 ### Basic Information that are displayed when accessing a page
 
-**[Schema:]()**
+**Schema:**
 ```bash
 https://instagram.com/<path>?__a=1
 ```
