@@ -43,6 +43,8 @@ https://www.instagram.com/graphql/query/?query_id=<query_id>&variables=%7B<param
 |17888483320059182|user posts|
 |17864450716183058|likes on posts|
 |17852405266163336|comments on posts|
+|17842794232208280|posts on feed|
+|17847560125201451|feed profile suggestions|
 
 Available parameters:
 - id (user_id)
@@ -70,6 +72,14 @@ https://www.instagram.com/graphql/query/?query_id=17864450716183058&variables=%7
 
 # Post page comments
 https://www.instagram.com/graphql/query/?query_id=17852405266163336&variables={"shortcode":"<id_of_post>","first":<num_of_comments>}
+
+
+# **Only works with logged in user**
+# Feed posts
+https://www.instagram.com/graphql/query/?query_id=17842794232208280&variables={%22fetch_media_item_count%22:<num_of_posts>,%22fetch_comment_count%22:<num_of_comments_per_post>,%22fetch_like%22:<num_of_likers_per_post>}
+
+# Profile suggestios in feed
+https://www.instagram.com/graphql/query/?query_id=17847560125201451&variables={%22fetch_media_count%22:<num_of_posts_per_suggestion>,%22fetch_suggested_count%22:<num_of_suggestions>,%22filter_followed_friends%22:true}
 ```
 
 
