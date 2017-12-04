@@ -1,5 +1,5 @@
 ## Explore Tags
-> https://www.instagram.com/explore/tags/<tag_name>/?__a=1
+> https://www.instagram.com/explore/tags/[tag_name]/?__a=1
 
 ```js
 {
