@@ -1,5 +1,5 @@
 ## Profile
-> https://www.instagram.com/<username>/?__a=1
+> https://www.instagram.com/[username]/?__a=1
 
 ```js
 {
