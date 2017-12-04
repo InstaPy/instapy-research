@@ -53,6 +53,16 @@ Available parameters:
 - after (haven't completely figured out, but looks like this is for the offset, use the cursor field)
 - shortcode (used for the "on posts" queries like "likes on post")
 
+Needed for the feedpage
+- filter_followed_friends
+- fetch_suggested_count
+- fetch_like
+- fetch_media_count
+- fetch_comment_count
+- fetch_media_item_count
+- has_stories
+
+
 **[Examples](./custom_endpoint)**
 ```bash
 # Explore tags
@@ -79,7 +89,7 @@ https://www.instagram.com/graphql/query/?query_id=17852405266163336&variables={"
 https://www.instagram.com/graphql/query/?query_id=17842794232208280&variables={%22fetch_media_item_count%22:<num_of_posts>,%22fetch_comment_count%22:<num_of_comments_per_post>,%22fetch_like%22:<num_of_likers_per_post>}
 
 # Profile suggestios in feed
-https://www.instagram.com/graphql/query/?query_id=17847560125201451&variables={%22fetch_media_count%22:<num_of_posts_per_suggestion>,%22fetch_suggested_count%22:<num_of_suggestions>,%22filter_followed_friends%22:true}
+https://www.instagram.com/graphql/query/?query_id=17847560125201451&variables={%22fetch_media_count%22:<num_of_posts_per_suggestion>,%22fetch_suggested_count%22:<num_of_suggestions>,%22filter_followed_friends%22:true, "has_stories":false}
 ```
 
 
