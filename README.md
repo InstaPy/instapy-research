@@ -42,7 +42,7 @@ https://www.instagram.com/graphql/query/?query_id=<query_id>&variables=%7B<param
 |17851374694183129|user followers|
 |17888483320059182|user posts|
 |17864450716183058|likes on posts|
-|TODO|comments on posts|
+|17852405266163336|comments on posts|
 
 Available parameters:
 - id (user_id)
@@ -57,7 +57,7 @@ Available parameters:
 https://www.instagram.com/graphql/query/?query_id=17875800862117404&variables=%7B%22tag_name%22%3A%22<tag_name>%22%2C%22first%22%3A<num_of_posts>%7D
 
 # User profile following
-https://www.instagram.com/graphql/query/?query_id=17874545323001329&variables=%7B%22id%22%3A%221948321393%22%2C%22first%22%3A<num_of_following>%7D
+https://www.instagram.com/graphql/query/?query_id=17874545323001329&variables=%7B%22id%22%3A%22<user_id>%22%2C%22first%22%3A<num_of_following>%7D
 
 # User profile followers
 https://www.instagram.com/graphql/query/?query_id=17874545323001329&variables=%7B%22id%22%3A%22<user_id>%22%2C%22first%22%3A<num_of_followers>%7D
@@ -67,6 +67,9 @@ https://www.instagram.com/graphql/query/?query_id=17888483320059182&variables=%7
 
 # Post page likes
 https://www.instagram.com/graphql/query/?query_id=17864450716183058&variables=%7B%22shortcode%22%3A%22<id_of_post>%22X2C%22first%22%3A<num_of_likes>%7D
+
+# Post page comments
+https://www.instagram.com/graphql/query/?query_id=17852405266163336&variables={"shortcode":"<id_of_post>","first":<num_of_comments>}
 ```
 
 
