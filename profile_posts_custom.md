@@ -19,7 +19,7 @@
 }
 ```
 
-### Structure of posts (list_of_posts => number depending on the first param in url)
+### Structure of posts (list_of_posts => number depending on the `first` param in url)
 ```js
 {
     "node": {
