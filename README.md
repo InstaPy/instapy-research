@@ -70,11 +70,11 @@ Needed for the feedpage
 **[Examples](./custom_endpoint)**
 
 ```bash
-# Note: Still have to figure out how to get this data without using selenium once logged in.
-# **Only works with logged in user**
-
 # Explore tags
 https://www.instagram.com/graphql/query/?query_id=17875800862117404&variables=%7B%22tag_name%22%3A%22<tag_name>%22%2C%22first%22%3A<num_of_posts>%7D
+
+# Note: Still have to figure out how to get this data without using selenium once logged in.
+# **Only works with logged in user**
 
 # User profile following
 https://www.instagram.com/graphql/query/?query_id=17874545323001329&variables=%7B%22id%22%3A%22<user_id>%22%2C%22first%22%3A<num_of_following>%7D
