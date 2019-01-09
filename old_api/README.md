@@ -1,10 +1,4 @@
-# InstaPy-Research
-📄 Research repository for InstaPy
-
-### DEPRECATED Information -> Might be updated in the future
-
-> Disclaimer: This repository is only for educational purpose. Anyone who abuses the information provided here does so on his own behalf. I am in no way responsible for it.
-
+### DEPRECATED Information
 
 This repository documents the, up to this point, found endpoints that could be useful for InstaPy to improve it's fault tolerance and performance.    
 The goal is to not only remove the unnecessary use of selenium to find elements to click but also improve the amount of data that can be retrieved in each run. Once we reach a point where a profile/post only has to be opened to actually like, comment  and follow the profile, we minimized the amount of elements that need an upgrade on an Instagram webpage change.    
