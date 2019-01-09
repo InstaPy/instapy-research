@@ -8,7 +8,7 @@ In this repository, we want to document some of the things we will discover, und
 
 Some of the topics we've already looked into are:
 - [Old Instagram "internal" API](https://github.com/timgrossmann/InstaPy-Research/tree/master/old_api)
-- [Publishing packages on PyPi]()
+- [Publishing packages on PyPi](https://github.com/timgrossmann/InstaPy-Research/tree/master/pypi_publish)
   - [Wheel distributions on PyPi]()
   
 
