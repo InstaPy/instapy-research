@@ -21,22 +21,22 @@ Neither the Webserver nor the GUI knows about the function `follow_users_followe
 There will be one json or yaml configuration file which will looks like the following: _(alot of properties might be missing here, just to get an idea)_  
 ```json
 {
-	methods: [
+	"methods": [
 		{
-			name: "follow_users_follower",
-			params: [
+			"name": "follow_users_follower",
+			"params": [
 				{
-					name: "hashtags",
-					positon: 0,
-					type: "list",
-					optional: false
+					"name": "hashtags",
+					"positon": 0,
+					"type": "list",
+					"optional": false
 				},
 				{
-					name: "randonum",
-					positon: 1,
-					type: "int",
-					optional: true,
-					default: 0
+					"name": "randonum",
+					"positon": 1,
+					"type": "int",
+					"optional": true,
+					"default": 0
 				}
 			]
 		}
