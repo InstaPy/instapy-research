@@ -19,7 +19,7 @@ Everything should be really abstract and dynamic. All functionality and availabl
 
 _Example:_  
 Neither the Webserver nor the GUI knows about the function `follow_users_follower()`. They also dont know anything about the signature of this function.  
-There will be one json or yaml configuration file which will looks like the following: _(alot of properties might be missing here, just to get an idea)_  
+There will be one json or yaml configuration file which will look like the following: _(alot of properties might be missing here, just to get an idea)_  
 ```json
 {
 	"methods": [
