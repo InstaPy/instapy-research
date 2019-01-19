@@ -16,6 +16,7 @@ There also have to be changes in the main instapy package:
 # Main concept
 
 Everything should be really abstract and dynamic. All functionality and available functions of instapy core will only be configured in **one** file.  
+
 _Example:_  
 Neither the Webserver nor the GUI knows about the function `follow_users_follower()`. They also dont know anything about the signature of this function.  
 There will be one json or yaml configuration file which will looks like the following: _(alot of properties might be missing here, just to get an idea)_  
