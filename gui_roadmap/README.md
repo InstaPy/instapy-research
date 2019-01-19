@@ -80,6 +80,7 @@ Based on Main concept.
 
 - Electron
 - Preact ? 
+- D3 (for basic analytics) ? 
 
 Each commit on master triggers 2 different builds:  
 
