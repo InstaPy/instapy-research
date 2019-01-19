@@ -52,9 +52,9 @@ Webserver and GUI will read the new file, and automaticly configure themself for
 - are you able to get all of the data for the config out of instapy core with the `dir()` function ?
 - maybe get some additional stuff with help of [functools](https://docs.python.org/2/library/functools.html) Python library?
 
--> Developers of instapy-core just have to provide a pydoc string which got a certain format and the GUI / Webserver are going to configure based on those
--> even the config file would be obsolote
--> People could switch instapy versions and the same GUI / Webserver will work on every instapy version because it configures itself based on the package
+-> Developers of instapy-core just have to provide a pydoc string which got a certain format and the GUI / Webserver are going to configure based on those  
+-> even the config file would be obsolete  
+-> People could switch instapy versions and the same GUI / Webserver will work on every instapy version because it configures itself based on the package  
 
 **-> [have a look at my tests !!](/gui_roadmap/inspecting_package.ipynb)**
 
