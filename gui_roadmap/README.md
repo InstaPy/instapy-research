@@ -55,7 +55,7 @@ Webserver and GUI will read the new file, and automaticly configure themself for
 -> even the config file would be obsolote
 -> People could switch instapy versions and the same GUI / Webserver will work on every instapy version because it configures itself based on the package
 
-**-> [have a look at my tests !!](/inspecting_package.ipynb)**
+**-> [have a look at my tests !!](/gui_roadmap/inspecting_package.ipynb)**
 
 # Webserver
 
