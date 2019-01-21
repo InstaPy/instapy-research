@@ -2,12 +2,13 @@ This repository documents the process of taking InstaPy and publishing it to PyP
 One of the most important concepts we want to quickly cover here is how to publish wheel/multi distributions for different platforms.
 
 ## Basic publishing Process for PyPi
-
+> TODO
 
 ## Publishing wheel/mutli distributions
+> TODO
+
 
 --- 
----
 ---
 
 # Technical Documentation of PyPi deploy by @uluQulu
