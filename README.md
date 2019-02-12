@@ -8,7 +8,9 @@ In this repository, we want to document some of the things we will discover, und
 
 Some of the topics we've already looked into are:
 - [GUI Roadmap](https://github.com/InstaPy/instapy-research/tree/master/gui_roadmap#gui-roadmap)
-- [Old Instagram "internal" API](https://github.com/InstaPy/InstaPy-Research/tree/master/old_api)
+- [API](https://github.com/InstaPy/InstaPy-Research/tree/master/api)
+  - [API Endpoints](./api/API_ENDPOINTS.md)
+  - [Old API](./api/old_api)
 - [Publishing packages on PyPi](https://github.com/InstaPy/InstaPy-Research/tree/master/pypi_publish)
   - [Wheel distributions on PyPi]()
 - [Utilities](https://github.com/InstaPy/instapy-research/tree/master/utils)
